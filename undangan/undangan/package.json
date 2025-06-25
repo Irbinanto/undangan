@@ -1,0 +1,32 @@
+{
+  "name": "undangan",
+  "version": "1.0.0",
+  "description": "Template website undangan pernikahan sederhana",
+  "main": "public/js/main.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build:public": "webpack --mode production",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "template",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Dewanakl",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "aos": "^2.3.4",
+    "font-awesome": "^6.7.2",
+    "normalize.css": "^8.0.1",
+    "canvas-confetti": "^1.9.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
